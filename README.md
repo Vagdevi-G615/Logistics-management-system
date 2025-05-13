@@ -1,7 +1,7 @@
-🚚 Logistics Management System – Truck Route Planner
+# 🚚 Logistics Management System – Truck Route Planner
 A full-stack route optimization tool tailored for trucks, offering real-time geolocation-based navigation with traffic-aware routing, rest stop planning, and interactive map visualizations.
 
-✨ Features
+## ✨ Features
 
 🚛 Truck-specific route calculations
 
@@ -17,40 +17,44 @@ A full-stack route optimization tool tailored for trucks, offering real-time geo
 
 🔍 Address autocomplete for easy location search
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Category	Tools & Libraries
+
 Frontend	React 18 with TypeScript
+
 Styling	Tailwind CSS
+
 Mapping	React Leaflet + OpenStreetMap
+
 Routing	OSRM (Open Source Routing Machine)
+
 Icons	Lucide React
+
 Geocoding	Nominatim API
 
-🚀 Getting Started
+## 🚀 Getting Started
 ✅ Prerequisites
 Node.js (v18 or higher)
 
 npm or yarn package manager
 
-📦 Installation
-bash
-Copy
-Edit
-# Clone the repository
+## 📦 Installation
+
+### Clone the repository
 git clone https://github.com/Vagdevi-G615/Logistics-management-system.git
 
-# Navigate to the project directory
+### Navigate to the project directory
 cd Logistics-management-system
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Start the development server
-npm run dev
+### Start the development server
+`npm run dev`
 Then open your browser and visit:
 👉 http://localhost:5173
 
-🧪 Usage
+## 🧪 Usage
 Enter the starting location in the “From location” field
 
 Enter the destination in the “To location” field
@@ -67,15 +71,15 @@ View the route details, including:
 
 🔄 Alternative routes (if available)
 
-🔍 Features in Detail
-🛣️ Route Calculation
+### 🔍 Features in Detail
+#### 🛣️ Route Calculation
 Truck-specific routing rules
 
 Mandatory rest stops based on duration
 
 Dynamic route alternatives
 
-⏱️ Time Estimation
+#### ⏱️ Time Estimation
 Considers:
 
 Vehicle type, speed limits
@@ -86,7 +90,7 @@ Traffic data and urban zone access
 
 Required rest periods
 
-🗺️ Map Visualization
+#### 🗺️ Map Visualization
 Zoom/pan enabled map
 
 Clear visual paths
@@ -95,14 +99,15 @@ Start and end markers
 
 Auto-centering on route
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 Feel free to fork this repo and submit a Pull Request.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-🙏 Acknowledgments
+
+##  Acknowledgments
 🗺️ OpenStreetMap – Map data
 
 🧭 OSRM – Routing engine
