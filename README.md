@@ -1,5 +1,4 @@
 # 🚚 Logistics Management System – Truck Route Planner
-A full-stack route optimization tool tailored for trucks, offering real-time geolocation-based navigation with traffic-aware routing, rest stop planning, and interactive map visualizations.
 
 ## ✨ Features
 
